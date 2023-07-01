@@ -12,7 +12,7 @@ enum Emoji: String, CaseIterable {
 }
 
 struct ContentView: View {
-    @State var selection: Emoji = .👨‍💻
+    @State var selection: Emoji = .😍
     
     var body: some View {
         NavigationView {
